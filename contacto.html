@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <img src="./img/logo.jpg" width="30%" alt="Logo del Bazar">
+                </td>
+                <td>
+                    <h1>BazAR - En línea</h1>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h4>Todos los accesorios de tu cocina</h4>
+        <nav>
+            <ul>
+                <li><a href="./productos.html">Productos</a></li>
+                <li>Ofertas</li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="./ubicacion.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <form action="https://formspree.io/f/mvgkjgyb" method="POST">
+            <input type="texto" name="Nombre" id="nombre" placeholder="Ingrese su nombre:">
+            <br>
+            <input type="email" name="Email" id="email" placeholder="Ingrese su email:">
+            <br>
+            <textarea name="Consulta:" rows="5" cols="30" placeholder="Escriba aquí su consulta: "></textarea>
+            <br>
+            <input type="submit" name="Submit" id="submit" placeholder="Enviar:">
+            <input type="reset" name="Reset" id="reset" placeholder="Restablecer:">
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Desarrollador: Matías Campos - 2025 | <a href="mailto:mati.campos@bue.edu.ar">Email: mati.campos@gmail.com</a></p>
+        <hr>
+    </footer>
+
+
+    
+</body>
+</html>
